@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Range Highlighter Sample</title>
+
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.4/jquery-ui.js"></script>
+
+    <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js" type="text/javascript"></script>
+
+    <script src="https://officesnippetexplorerbranch.azurewebsites.net/script/Office.runtime.js"></script>
+    <script src="https://officesnippetexplorerbranch.azurewebsites.net/script/excel.js"></script>
+
+    <link href="Styles.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="content-header">
+		<h1>Welcome</h1>
+    </div>
+    <div id="content-main">
+		<p>This sample shows how to use the Excel JavaScript APIs to highlight a row of cells in a range depending on some condition.</p>
+		<h3>Try it out </h3>
+		<h5>What would you like to hightlight?</h5>
+		<select id="what-to-highlight" class="selectmenu">
+			<option value="Lowest in a range" selected="selected">Lowest number in a range</option>
+			<option value="Highest in a range">Highest number in a range</option>
+			<option value="First item in a range">First item in a range</option>
+			<option value="Last item in a range">Last item in a range</option>
+			<option value="Duplicate items in a range">Duplicate items in a range</option>
+		</select>
+		<br />
+		<h5>How would you like to hightlight?</h5>
+		<select id="how-to-highlight" class="selectmenu">
+			<option value="fill formatting" selected="selected">Fill the row in orange</option>
+			<option value="bold text">Bold the text in the row</option>
+			<option value="display in taskpane">Display the text in the task pane</option>
+		</select>
+		<br />
+		<h5>Where's the source data?</h5>
+		<p>Select a column of cells in the spreadsheet such as B3:B8 and click Go!.</p>
+		<br />
+		<button class="ms-Button" id="go-button">Go!</button>
+	<h3>Results</h3>
+	<div id="results">
+        </div>
+    </div>
+</body>
+</html>
