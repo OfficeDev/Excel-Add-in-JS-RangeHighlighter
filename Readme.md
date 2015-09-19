@@ -2,11 +2,10 @@
 
 _Applies to: Excel 2016_ 
 
-This simple task pane add-in shows how to do common operations using the Range API in Excel 2016. It comes in two flavors: text editor and Visual Studio. The figures below show what operations are supported and the result in the spreadsheet.
-![Range Highlighter Sample](/images/RangeHighlighter_taskpane.png)
-![Range Highlighter Sample](/images/RangeHighlighter_what.png)
-![Range Highlighter Sample](/images/RangeHighlighter_how.png)
-![Range Highlighter Sample](/images/RangeHighlighter_result.png)
+This simple task pane add-in shows how to do common operations using the Range API in Excel 2016. It comes in two flavors: text editor and Visual Studio. 
+![Range Highlighter Sample](images/RangeHighlighter_taskpane.png)
+![Range Highlighter Sample](images/RangeHighlighter_result.png)
+
 
 ## Try it out
 ### Text editor version
@@ -27,13 +26,15 @@ This simple task pane add-in shows how to do common operations using the Range A
     1.  On the Insert tab in Excel 2016, choose My Add-ins. 
     2.  In the Office Add-ins dialog box, choose Shared Folder.
     3.  Choose Range Highlighter Sample, and then choose Insert.
-    4.  The add-in will open in a task pane to the right of the current worksheet as shown in this diagram. ![Range Highlighter Sample](/images/RangeHighlighter_taskpane.png)
-    5. The add-in populates a range with some sample data. Now select a column of cells such as B3:B8 in the active sheet and make your selections in the two dropdown lists in the task pane. Then click Go!. You should see the result. For example, figure 2 shows two rows with duplicate values in the selected range highlighted with orange. Now free feel to explore the other combinations in the task pane and see the appropriate result in the spreadsheet or in the Results section in the task pane.![Range Highlighter Sample](/images/RangeHighlighter_result.png)
+    4.  The add-in will open in a task pane to the right of the current worksheet as shown in this diagram. ![Range Highlighter Sample](images/RangeHighlighter_taskpane.png)
+    5. The add-in populates a range with some sample data. Now select a column of cells such as B3:B8 in the active sheet and make your selections in the two dropdown lists in the task pane. Then click Go!. You should see the result. For example, figure 2 shows two rows with duplicate values in the selected range highlighted with orange. Now free feel to explore the other combinations in the task pane and see the appropriate result in the spreadsheet or in the Results section in the task pane.![Range Highlighter Sample](images/RangeHighlighter_result.png)
 
 ### Visual Studio version
 1.  Copy the project to a local folder. Then open the Excel-Add-in-JS-RangeHighlighter.sln in Visual Studio.
-2. Press F5 to build and deploy the sample add-in. This will launch Excel 2016 with the add-in loaded in the task pane as shown in this diagram. ![Range Highlighter Sample](/images/RangeHighlighter_taskpane.png)
-3. The add-in populates a range with some sample data. Now select a column of cells such as B3:B8 in the active sheet and make your selections in the two dropdown lists in the task pane. Then click Go!. You should see the result. For example, figure 2 shows two rows with duplicate values in the selected range highlighted with orange. Now free feel to explore the other combinations in the task pane and see the appropriate result in the spreadsheet or in the Results section in the task pane.![Range Highlighter Sample](/images/RangeHighlighter_result.png)
+2. Press F5 to build and deploy the sample add-in. This will launch Excel 2016 with the add-in loaded in the task pane as shown in this diagram. ![Range Highlighter Sample](images/RangeHighlighter_taskpane.png)
+3. The add-in populates a range with some sample data. Now select a column of cells such as B3:B8 in the active sheet and make your selections in the two dropdown lists in the task pane. Then click Go!. You should see the result. For example, figure 2 shows two rows with duplicate values in the selected range highlighted with orange. Now free feel to explore the other combinations in the task pane and see the appropriate result in the spreadsheet or in the Results section in the task pane.
+
+  ![Range Highlighter Sample](images/RangeHighlighter_result.png)
 
 
 
