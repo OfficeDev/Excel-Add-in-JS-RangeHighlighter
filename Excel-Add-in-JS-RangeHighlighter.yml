@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: Range Highlighter Task Pane Add-in Sample for Excel 2016
+  path: ''
+  description: 'This simple task pane add-in shows how to do common operations such as formatting and highlighting using the Range API in Excel 2016. It comes in two flavors: text editor and Visual Studio.'
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: umasubra
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Excel
+    scenarios: []
